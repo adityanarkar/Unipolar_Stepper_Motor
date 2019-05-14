@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="StepperMotor"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UPLOAD">
+				<Option working_dir="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 UPLOAD"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StepperMotor.elf">
+				<Option output="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/StepperMotor.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-D__FPU_PRESENT=1"/>
+					<Add option="-D__weak=__attribute__((weak))"/>
+					<Add option="-D__packed=__attribute__((__packed__))"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Inc"/>
+					<Add directory="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/CMSIS/Include"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/arm-none-eabi"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/backward"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/include"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/include-fixed"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 StepperMotor.elf"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="StepperMotor.elf/fast">
+				<Option output="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/StepperMotor.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-D__FPU_PRESENT=1"/>
+					<Add option="-D__weak=__attribute__((weak))"/>
+					<Add option="-D__packed=__attribute__((__packed__))"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Inc"/>
+					<Add directory="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/CMSIS/Include"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/arm-none-eabi"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include/c++/7.3.1/backward"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/include"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/include-fixed"/>
+					<Add directory="/usr/local/Cellar/gcc-arm-none-eabi/20180627/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 StepperMotor.elf/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/CMSIS/Include/arm_common_tables.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/CMSIS/Include/arm_const_structs.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/CMSIS/Include/arm_math.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/CMSIS/Include/cmsis_armcc_V6.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/CMSIS/Include/core_cmFunc.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/CMSIS/Include/core_cmInstr.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/CMSIS/Include/core_cmSimd.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Inc/main.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Inc/stm32f4xx_hal_conf.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Inc/stm32f4xx_it.h">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/STM32F407VGTx_FLASH.ld">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Src/main.c">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Src/stm32f4xx_hal_msp.c">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Src/stm32f4xx_it.c">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/Src/system_stm32f4xx.c">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/startup/startup_stm32f407xx.s">
+			<Option target="StepperMotor.elf"/>
+		</Unit>
+		<Unit filename="/Users/adityanarkar/Aditya/Spring-2019/High-Assuarance-Systems/Projects/StepperMotor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
